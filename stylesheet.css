@@ -20,8 +20,24 @@ body {
 
 h1 {
     color: var(--Dark-Grayish-Blue);
+    font-weight: 600;
+    margin-bottom: 20px;
 }
 
+.container_header {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.container_header img {
+    margin-bottom: 30px;
+    width: 125px;
+}
+.container_header p {
+    display: inline-block;
+    width: 550px;
+    margin-bottom: 30px;
+}
 h2 {
     color: var(--Dark-Grayish-Blue);
 }
