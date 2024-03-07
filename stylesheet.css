@@ -89,6 +89,13 @@ p {
     font-weight: 400;
 }
 
+.article_two p {
+    width: 700px;
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
 footer {
     background-color: hsl(206, 26%, 95%);
 }
