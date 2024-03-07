@@ -96,6 +96,26 @@ p {
     margin-bottom: 60px;
 }
 
+.p_three {
+    width: 700px;
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+.container_tools {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.container_tools div {
+    width: 350px;
+    margin: 20px;
+}
+.container_tools p {
+    line-height: 30px;
+}
+
+
 footer {
     background-color: hsl(206, 26%, 95%);
 }
