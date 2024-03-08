@@ -27,7 +27,7 @@ h1 {
 
 .container_header {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 100px;
 }
 .container_header img {
@@ -37,8 +37,37 @@ h1 {
 .container_header p {
     display: inline-block;
     width: 700px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-size: 20px;
+}
+
+.container_button button {
+    font-family: "Bai Jamjuree", sans-serif;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border-style: none;
+    margin: 0 10px;
+    border-bottom-style: solid;
+}
+.button_ios {
+    background-color: var(--strong-Cyan);
+    border-bottom-color: hsl(171, 70%, 32%);
+    border-bottom-width: 3px;
+}
+.button_mac {
+    background-color: var(--Light-Blue);
+    border-bottom-color: hsl(233, 67%, 56%);
+    border-bottom-width: 3px;
+}
+.button_ios:hover {
+    background-color: hsl(171, 63%, 64%);
+    cursor: pointer;
+}
+.button_mac:hover {
+    background-color: hsl(233, 85%, 73%);
+    cursor: pointer;
 }
 
 article {
@@ -66,6 +95,7 @@ h2 {
 .container_article1 img {
     margin-left: -200px;
     margin-right: 60px;
+    width: 905px;
 }
 .container_list {
     margin-right: 100px;
@@ -92,8 +122,7 @@ p {
 .article_two p {
     width: 700px;
     font-size: 18px;
-    display: inline-block;
-    margin-bottom: 60px;
+    margin: 0px auto 60px auto;
 }
 
 .p_three {
@@ -114,7 +143,23 @@ p {
 .container_tools p {
     line-height: 30px;
 }
-
+.container_tools img {
+    margin-bottom: 50px;
+}
+.container_logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.container_logos img {
+    height: min-content;
+}
+.article_four p {
+    display: inline-block;
+    width: 700px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
 
 footer {
     background-color: hsl(206, 26%, 95%);
