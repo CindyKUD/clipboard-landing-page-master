@@ -99,7 +99,7 @@ h2 {
 }
 .container_list {
     margin-right: 100px;
-    margin-left: 60px;
+    margin-left: 80px;
     text-align: left;
     align-self: center;
 }
@@ -162,7 +162,32 @@ p {
 }
 
 footer {
+    height: 300px;
     background-color: hsl(206, 26%, 95%);
+}
+.article_five {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    width: 80px;
+}
+ol {
+    width: 600px;
+    list-style: none;
+    display: grid;
+    grid: 70px 30px / auto-flow 30%;
+    justify-items: left;
+}
+li {
+    color: var(--Dark-Grayish-Blue);
+    font-size: 20px;
+}
+li:hover {
+    color: var(--strong-Cyan);
+    cursor: pointer;
 }
 
 .attribution {
