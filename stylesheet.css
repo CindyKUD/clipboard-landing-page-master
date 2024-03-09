@@ -189,7 +189,16 @@ li:hover {
     color: var(--strong-Cyan);
     cursor: pointer;
 }
-
+.redes svg {
+    margin: 5px 20px;
+}
+path {
+    fill: var(--Dark-Grayish-Blue);
+}
+path:hover {
+    fill: var(--strong-Cyan);
+    cursor: pointer;
+}
 .attribution {
     font-size: 11px;
     text-align: center;
