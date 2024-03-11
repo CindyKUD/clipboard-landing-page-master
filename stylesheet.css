@@ -181,13 +181,13 @@ ol {
     grid: 70px 30px / auto-flow 30%;
     justify-items: left;
 }
-li {
+li a {
     color: var(--Dark-Grayish-Blue);
     font-size: 20px;
+    text-decoration: none;
 }
-li:hover {
+li a:hover {
     color: var(--strong-Cyan);
-    cursor: pointer;
 }
 .redes svg {
     margin: 5px 20px;
