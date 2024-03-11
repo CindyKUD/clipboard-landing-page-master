@@ -1,6 +1,6 @@
 # Frontend Mentor - Clipboard landing page
 
-![Design preview for the Clipboard landing page coding challenge](https://www.webmobilefirst.com/en/screencasts/1oSep5Y_yb/)
+![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
